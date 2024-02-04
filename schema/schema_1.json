@@ -1,0 +1,272 @@
+{
+  "battle": {
+    "type": "object",
+    "tag": "",
+    "description": "",
+    "required": false
+  },
+  "battle.id": {
+    "type": "string",
+    "tag": "",
+    "description": "",
+    "required": false
+  },
+  "battle.name": {
+    "type": "string",
+    "tag": "",
+    "description": "",
+    "required": false
+  },
+  "battle.orientation": {
+    "type": "string",
+    "tag": "",
+    "description": "",
+    "required": false
+  },
+  "battle.settings": {
+    "type": "object",
+    "tag": "",
+    "description": "",
+    "required": false
+  },
+  "battle.settings.minParticipants": {
+    "type": "integer",
+    "tag": "",
+    "description": "",
+    "required": false
+  },
+  "battle.settings.maxParticipants": {
+    "type": "integer",
+    "tag": "",
+    "description": "",
+    "required": false
+  },
+  "battle.settings.battleType": {
+    "type": "string",
+    "tag": "",
+    "description": "",
+    "required": false
+  },
+  "battle.settings.wagerType": {
+    "type": "string",
+    "tag": "",
+    "description": "",
+    "required": false
+  },
+  "battle.settings.countdown": {
+    "type": "integer",
+    "tag": "",
+    "description": "",
+    "required": false
+  },
+  "battle.settings.duration": {
+    "type": "integer",
+    "tag": "",
+    "description": "",
+    "required": false
+  },
+  "battle.settings.archetype": {
+    "type": "object",
+    "tag": "",
+    "description": "",
+    "required": false
+  },
+  "battle.settings.archetype.name": {
+    "type": "string",
+    "tag": "",
+    "description": "",
+    "required": false
+  },
+  "battle.settings.archetype.iconId": {
+    "type": "string",
+    "tag": "",
+    "description": "",
+    "required": false
+  },
+  "battle.status": {
+    "type": "string",
+    "tag": "",
+    "description": "",
+    "required": false
+  },
+  "battle.creationTime": {
+    "type": "integer",
+    "tag": "",
+    "description": "",
+    "required": false
+  },
+  "battle.startTime": {
+    "type": "integer",
+    "tag": "",
+    "description": "",
+    "required": false
+  },
+  "battle.endTime": {
+    "type": "integer",
+    "tag": "",
+    "description": "",
+    "required": false
+  },
+  "battle.creator": {
+    "type": "object",
+    "tag": "",
+    "description": "",
+    "required": false
+  },
+  "battle.creator.id": {
+    "type": "string",
+    "tag": "",
+    "description": "",
+    "required": false
+  },
+  "battle.creator.nickname": {
+    "type": "string",
+    "tag": "",
+    "description": "",
+    "required": false
+  },
+  "battle.creator.title": {
+    "type": "string",
+    "tag": "",
+    "description": "",
+    "required": false
+  },
+  "battle.creator.accountType": {
+    "type": "string",
+    "tag": "",
+    "description": "",
+    "required": false
+  },
+  "battle.creator.countryCode": {
+    "type": "string",
+    "tag": "",
+    "description": "",
+    "required": false
+  },
+  "battle.creator.orientation": {
+    "type": "string",
+    "tag": "",
+    "description": "",
+    "required": false
+  },
+  "battle.participants": {
+    "type": "array",
+    "tag": "",
+    "description": "",
+    "required": false
+  },
+  "battle.participants.user": {
+    "type": "object",
+    "tag": "",
+    "description": "",
+    "required": false
+  },
+  "battle.participants.user.id": {
+    "type": "string",
+    "tag": "",
+    "description": "",
+    "required": false
+  },
+  "battle.participants.user.nickname": {
+    "type": "string",
+    "tag": "",
+    "description": "",
+    "required": false
+  },
+  "battle.participants.user.title": {
+    "type": "string",
+    "tag": "",
+    "description": "",
+    "required": false
+  },
+  "battle.participants.user.accountType": {
+    "type": "string",
+    "tag": "",
+    "description": "",
+    "required": false
+  },
+  "battle.participants.user.countryCode": {
+    "type": "string",
+    "tag": "",
+    "description": "",
+    "required": false
+  },
+  "battle.participants.user.orientation": {
+    "type": "string",
+    "tag": "",
+    "description": "",
+    "required": false
+  },
+  "battle.participants.creator": {
+    "type": "integer",
+    "tag": "",
+    "description": "",
+    "required": false
+  },
+  "battle.participants.ranking": {
+    "type": "integer",
+    "tag": "",
+    "description": "",
+    "required": false
+  },
+  "battle.participants.numberOfTrades": {
+    "type": "integer",
+    "tag": "",
+    "description": "",
+    "required": false
+  },
+  "battle.participants.performance": {
+    "type": "string",
+    "tag": "",
+    "description": "",
+    "required": false
+  },
+  "joiner": {
+    "type": "object",
+    "tag": "",
+    "description": "",
+    "required": false
+  },
+  "joiner.id": {
+    "type": "string",
+    "tag": "",
+    "description": "",
+    "required": false
+  },
+  "joiner.nickname": {
+    "type": "string",
+    "tag": "",
+    "description": "",
+    "required": false
+  },
+  "joiner.title": {
+    "type": "string",
+    "tag": "",
+    "description": "",
+    "required": false
+  },
+  "joiner.accountType": {
+    "type": "string",
+    "tag": "",
+    "description": "",
+    "required": false
+  },
+  "joiner.countryCode": {
+    "type": "string",
+    "tag": "",
+    "description": "",
+    "required": false
+  },
+  "joiner.orientation": {
+    "type": "string",
+    "tag": "",
+    "description": "",
+    "required": false
+  },
+  "participantIds": {
+    "type": "enum array",
+    "tag": "",
+    "description": "",
+    "required": false
+  }
+}
